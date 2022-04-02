@@ -770,7 +770,7 @@
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" style="justify-content: center">
               <form
                 action="{{route('contact.send')}}"
-                method="POST"
+                method="post"
                 role="form"
               >
               @csrf

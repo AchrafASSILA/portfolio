@@ -10,26 +10,15 @@ class Contact extends Controller
 {
     public function contactUs(Request $request)
     {
-        try {
-            $details = [
-                '_token' => $request->_token,
-                'name' => $request->name,
-                'email' => $request->email,
-                'subject' => $request->subject,
-                'message' => $request->message
-            ];
-            Mail::to('achrafassila678@gmail.com')->send(new ContactMail($details));
-            return redirect('/')->with('message_sent', 'your message has been sent succesfully');
-        } catch (\Throwable $th) {
-            $details = [
-                '_token' => $request->_token,
-                'name' => $request->name,
-                'email' => $request->email,
-                'subject' => $request->subject,
-                'message' => $request->message
-            ];
-            Mail::to('achrafassila678@gmail.com')->send(new ContactMail($details));
-            return redirect('/')->with('message_sent', 'your message has been sent succesfully');
-        }
+
+        $details = [
+
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message
+        ];
+        Mail::to('achrafassila678@gmail.com')->send(new ContactMail($details));
+        return redirect('/')->with('message_sent', 'your message has been sent succesfully');
     }
 }
