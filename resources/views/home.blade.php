@@ -767,13 +767,15 @@
               </div>
             </div>
 
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" style="justify-content: center">
               <form
-                action=""
-                method="post"
+                action="{{route('contact.send')}}"
+                method="POST"
                 role="form"
-                class="php-email-form"
+
+                {{-- class="php-email-form" --}}
               >
+              @csrf
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label for="name">Your Name</label>
