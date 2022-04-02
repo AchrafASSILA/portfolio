@@ -773,8 +773,6 @@
                 method="POST"
                 role="form"
                 autocomplete="off"
-
-                {{-- class="php-email-form" --}}
               >
               @csrf
                 <div class="row">

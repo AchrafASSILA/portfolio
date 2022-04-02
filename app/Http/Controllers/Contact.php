@@ -11,6 +11,7 @@ class Contact extends Controller
     public function contactUs(Request $request)
     {
         $details = [
+            '_token' => $request->_token,
             'name' => $request->name,
             'email' => $request->email,
             'subject' => $request->subject,
