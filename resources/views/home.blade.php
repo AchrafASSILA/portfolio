@@ -784,6 +784,7 @@
                       name="name"
                       class="form-control"
                       id="name"
+                      autocomplete="off"
                       required
                     />
                   </div>
@@ -792,6 +793,7 @@
                     <input
                       type="email"
                       class="form-control"
+                      autocomplete="off"
                       name="email"
                       id="email"
                       required
@@ -803,6 +805,7 @@
                   <input
                     type="text"
                     class="form-control"
+                    autocomplete="off"
                     name="subject"
                     id="subject"
                     required
@@ -813,6 +816,7 @@
                   <textarea
                     class="form-control"
                     name="message"
+                    autocomplete="off"
                     rows="10"
                     required
                   ></textarea>
