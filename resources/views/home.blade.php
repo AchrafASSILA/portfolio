@@ -823,12 +823,19 @@
                   ></textarea>
                 </div>
                 <div class="my-3">
-                  {{-- <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div> --}}
+            
+                @if(Session::get('message_sent'))
+                  <div style="
+                  color: #fff;
+                  background: #18d26e;
+                  text-align: center;
+                  padding: 15px;
+                  font-weight: 600;">
+                    {{Session::get('message_sent')}}
+                  </div>
+                @endif
                 </div>
+
                 <div class="text-center">
                   <button type="submit">Send Message</button>
                 </div>

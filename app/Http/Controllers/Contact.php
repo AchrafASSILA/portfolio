@@ -17,6 +17,6 @@ class Contact extends Controller
             'message' => $request->message
         ];
         Mail::to('achrafassila678@gmail.com')->send(new ContactMail($details));
-        return redirect('/')->with('message sent', 'your message has been sent succesfully');
+        return redirect('/')->with('message_sent', 'your message has been sent succesfully');
     }
 }
