@@ -521,7 +521,7 @@
                     title="Devsearch A Social Network Application"
                     ><i class="bx bx-plus"></i
                   ></a>
-                  <a href="https://github.com/AchrafASSILA/devsearch" title="View In Github"
+                  <a target="_blank"  href="https://github.com/AchrafASSILA/devsearch" title="View In Github"
                     ><i class="bx bx-link"></i
                   ></a>
                 </div>
@@ -543,7 +543,7 @@
                     title="Proshop An Ecommerce Web Application"
                     ><i class="bx bx-plus"></i
                   ></a>
-                  <a href="https://github.com/AchrafASSILA/proshop" title="View In Github"
+                  <a target="_blank" href="https://github.com/AchrafASSILA/proshop" title="View In Github"
                     ><i class="bx bx-link"></i
                   ></a>
                 </div>
@@ -564,7 +564,7 @@
                     title="Landing Page"
                     ><i class="bx bx-plus"></i
                   ></a>
-                  <a href="https://github.com/AchrafASSILA/leon_template" title="More Details"
+                  <a target="_blank" href="https://github.com/AchrafASSILA/leon_template" title="More Details"
                     ><i class="bx bx-link"></i
                   ></a>
                 </div>
