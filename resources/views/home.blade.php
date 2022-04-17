@@ -327,7 +327,7 @@
                   <div
                     class="progress-bar"
                     role="progressbar"
-                    aria-valuenow="75"
+                    aria-valuenow="93"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
@@ -342,7 +342,7 @@
                   <div
                     class="progress-bar"
                     role="progressbar"
-                    aria-valuenow="80"
+                    aria-valuenow="98"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
